@@ -32,7 +32,7 @@ namespace DesignLibrary_Tutorial
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
-            SupportToolbar toolBar = FindViewById<SupportToolbar>(Resource.Id.toolBar);
+            SupportToolbar toolBar = FindViewById<SupportToolbar>(Resource.Id.toolbar);
             SetSupportActionBar(toolBar);
 
             SupportActionBar ab = SupportActionBar;
